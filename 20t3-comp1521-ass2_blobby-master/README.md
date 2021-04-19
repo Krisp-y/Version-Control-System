@@ -21,13 +21,13 @@ list, extract, and create blobs that include directories (subset 3),
 list, extract, and create blobs that are compressed (subset 4).
 
 ###Usage
-##Subset 0
+**Subset 0**
 Given the -l command line argument blobby.c should for each file in the specified blob print:
 The file/directory permissions in octal
 The file/directory size in bytes
 The file/directory pathname
 
-##Subset 1
+**Subset 1**
 Given the -x command line argument blobby.c should:
 Extract the files in the specified blob.
 
@@ -35,11 +35,11 @@ It should set file permissions for extracted files to the permissions specified 
 
 It should check blob integrity by checking each blobette hash, and emit an error if any are incorrect.
 
-##Subset 2
+**Subset 2**
 Given the -c command line argument blobby.c should:
 Create a blob containing the specified files.
 
-##Subset 3
+**Subset 3**
 Given the -c command line argument blobby.c should:
 Be able to add files in sub-directories, for examples:
 
